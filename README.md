@@ -1,12 +1,13 @@
-Klasifikasi Jenis Sampah Kemasan Menggunakan Machine Learning dan Deep Learning
+**Klasifikasi Jenis Sampah Kemasan Menggunakan Machine Learning dan Deep Learning**
+
 Proyek ini bertujuan untuk mengklasifikasikan lima jenis sampah kemasan (botol plastik, botol kaca, kaleng, kardus, dan plastik snack) berdasarkan citra gambar menggunakan metode Machine Learning (SVM dan Random Forest) serta Deep Learning (CNN). 
 
-Dataset
+**Dataset**
 Sumber: Pengambilan gambar mandiri dan kaggle
 Total: 500 gambar (100 gambar per jenis sampah)
 Format gambar: berwarna, dengan variasi resolusi
 
-Preprocessing dan Ekstraksi Fitur
+**Preprocessing dan Ekstraksi Fitur**
 Untuk model machine learning, dilakukan ekstraksi fitur dari citra gambar:
 Color Histogram: 12 fitur
 Hu Moments: 7 fitur
@@ -18,7 +19,7 @@ Resize gambar ke ukuran 224x224 piksel
 Rescaling nilai piksel ke rentang [-1, 1]
 Selain itu, fitur juga diekstraksi menggunakan model pretrained InceptionV3 yang menghasilkan 2048 fitur.
 
-Model yang Digunakan
+**Model yang Digunakan**
 Support Vector Machine (SVM)
 Random Forest
 Convolutional Neural Network (CNN)
