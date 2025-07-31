@@ -20,10 +20,10 @@ Untuk model deep learning (CNN), preprocessing dilakukan dengan: <br>
 2. Rescaling nilai piksel ke rentang [-1, 1] <br>
 3. Selain itu, fitur juga diekstraksi menggunakan model pretrained InceptionV3 yang menghasilkan 2048 fitur. <br>
 
-**Model yang Digunakan**
-Support Vector Machine (SVM) <br>
-Random Forest <br>
-Convolutional Neural Network (CNN) <br>
+**Model yang Digunakan** <br>
+- Support Vector Machine (SVM) <br>
+- Random Forest <br>
+- Convolutional Neural Network (CNN) <br>
 Evaluasi dilakukan pada data training dan testing dengan pembagian 80:20 untuk model machine learning, serta 60:20:20 untuk CNN (training, validation, testing). Masing-masing model diuji dengan dan tanpa hyperparameter tuning. <br>
 
 **Hasil Eksperimen**
