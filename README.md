@@ -24,6 +24,7 @@ Untuk model deep learning (CNN), preprocessing dilakukan dengan: <br>
 - Support Vector Machine (SVM) <br>
 - Random Forest <br>
 - Convolutional Neural Network (CNN) <br>
+
 Evaluasi dilakukan pada data training dan testing dengan pembagian 80:20 untuk model machine learning, serta 60:20:20 untuk CNN (training, validation, testing). Masing-masing model diuji dengan dan tanpa hyperparameter tuning. <br>
 
 **Hasil Eksperimen**
